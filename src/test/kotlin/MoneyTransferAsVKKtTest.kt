@@ -131,7 +131,7 @@ class MoneyTransferAsVKKtTest {
     fun should_calculate_correct_minTransferFee_for_Mir_and_Visa() {
         //arrange
         val amount = 500
-        val realUserFee = 35.0
+        val realUserFee = 350.0
 
         //act
         val userFee = transferFromVisaOrMir(amount)
